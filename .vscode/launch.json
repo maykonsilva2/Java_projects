@@ -1,0 +1,168 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Enum.App",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Interface.Multiple_Interfaces.App",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Abstract.App",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "MyPackageClass",
+            "request": "launch",
+            "mainClass": "mypack.MyPackageClass",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "LoopArray",
+            "request": "launch",
+            "mainClass": "Java_Sintaxe_Ex.LoopArray",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Java_Sintaxe_Ex.App",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Doubly_Linked_List.App",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "App_insertion_end_list",
+            "request": "launch",
+            "mainClass": "Single_linked_lists.App_insertion_end_list",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Single_linked_lists.App",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "APP",
+            "request": "launch",
+            "mainClass": "Queue_data_structure.APP",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Stack_data_strucuture.App",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "BubbleSort_algoritmo_v2_descending.App",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "BubbleSort_algoritmo_v1_1.App",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "BubbleSort_algoritmo_v1.App",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "BubbleSort_algoritmo_v2.App",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "BubbleSort_algoritmo.App",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Interface.App",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "testFuncionario",
+            "request": "launch",
+            "mainClass": "testFuncionario",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "Addition",
+            "request": "launch",
+            "mainClass": "Addition",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "bubble_sort",
+            "request": "launch",
+            "mainClass": "bubble_sort",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Welcome_1",
+            "request": "launch",
+            "mainClass": "Welcome_1",
+            "projectName": "JAVA_projects_e5a05a06"
+        }
+    ]
+}

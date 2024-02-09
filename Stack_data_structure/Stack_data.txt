@@ -1,0 +1,57 @@
+link: 
+
+class Stack {
+
+    private int[] array;
+    private int size;
+
+    public Stack(int capacity) {
+        array = new int[capacity];
+        size = 0;
+    }
+
+    public void push(int element) {
+        array[size] = element;
+        size++;
+    }
+
+    public int pop() {
+        if (size == 0) {
+            throw new IndexOutOfBoundsException("Stack is empty.");
+        }
+        int element = array[size - 1];
+        size--;
+        return element;
+    }
+
+    public int peek() {
+        if (size == 0) {
+            throw new IndexOutOfBoundsException("Stack is empty.");
+        }
+        return array[size - 1];
+    }
+
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
+    public int size() {
+        return size;
+    }
+
+}
+
+
+Este código primeiro cria uma classe chamada Stack. A classe Stack tem três campos: array, size e capacity. O campo array é um array que armazena os elementos da pilha. O campo size é o número de elementos na pilha. O campo capacity é o tamanho máximo da pilha.
+
+A classe Stack tem os seguintes métodos:
+
+push(): Este método adiciona um elemento à pilha.
+pop(): Este método remove um elemento da pilha.
+peek(): Este método retorna o elemento no topo da pilha.
+isEmpty(): Este método verifica se a pilha está vazia.
+size(): Este método retorna o tamanho da pilha.
+Para usar a classe Stack, você primeiro precisa criar uma instância da classe. Em seguida, você pode usar os métodos push(), pop(), peek(), isEmpty() e size() para manipular os elementos da pilha.
+
+ throw new IndexOutOfBoundsException(...)
+Se a condição for verdadeira, ou seja, se a pilha estiver vazia, o método lança uma exceção do tipo IndexOutOfBoundsException, usando a palavra-chave throw. Uma exceção é um objeto que representa um erro ou uma situação anormal que ocorre durante a execução do programa. A palavra-chave throw serve para interromper o fluxo normal do programa e passar o controle para um tratador de exceções adequado. Neste caso, a exceção indica que o método tentou acessar um índice inválido da pilha, já que ela está vazia e não tem nenhum elemento para remover. A exceção recebe uma mensagem como argumento, que é uma string entre aspas duplas que descreve o erro. Neste caso, a mensagem é "Stack is empty.", que significa que a pilha está vazia.
