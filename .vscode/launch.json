@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ListaNumeros",
+            "request": "launch",
+            "mainClass": "ListaNumeros",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "Enum.App",
