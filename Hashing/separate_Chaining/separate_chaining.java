@@ -1,12 +1,12 @@
-package Hashing;
+package Hashing.separate_Chaining;
 
 import java.util.ArrayList;
 
-public class Hash {
+public class separate_chaining {
     private final int bucket;
     private final ArrayList<Integer>[] table;
 
-    public Hash(int bucket) {
+    public separate_chaining(int bucket) {
         this.bucket = bucket;
         this.table = new ArrayList[bucket];
         for(int i = 0; i < bucket; i++){
@@ -48,7 +48,7 @@ public class Hash {
            // array that contains keys to be mapped
            int[] values = { 15, 11, 27, 8, 12 };
     
-           Hash h = new Hash(7);
+           separate_chaining h = new separate_chaining(7);
     
            // insert the keys into the hash table
            for (int key : values) {

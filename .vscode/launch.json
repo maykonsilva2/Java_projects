@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinearProbingHash",
+            "request": "launch",
+            "mainClass": "Hashing.linear_probing_hash.LinearProbingHash",
+            "projectName": "JAVA_projects_e5a05a06"
+        },
+        {
+            "type": "java",
             "name": "Hash",
             "request": "launch",
             "mainClass": "Hashing.Hash",
